@@ -13,7 +13,8 @@
 ## Hash Function
     Her seferinde aynı girdiye aynı sonucu vermelidir. Farklı girdilere farklı sonuçlar vermelidir.
 ## Hash Table
-    Hash Table, key-value prensibine dayanan bir array kümesidir. Key olarak çağırdığımız elemanın değerini(value) yansıtır. Hash table yerine dizileri kullanabilirdik fakat her keyi ve değerini tek tek aramak istemediğimiz için hash table kullanılır.
+    Hash Table, key-value prensibine dayanan bir array kümesidir. Key olarak çağırdığımız elemanın değerini(value) yansıtır.
+    Hash table yerine dizileri kullanabilirdik fakat her keyi ve değerini tek tek aramak istemediğimiz için hash table kullanılır.
 
 * Hash Collision: Farklı iki değerden aynı sayı üretilirse buna collision(çarpışma) denir.
 
@@ -24,4 +25,5 @@
 
 ## Analizi Nasıl Yapabilirim?
 ### Büyüme hızı(***rate of growth***):
-    Programa verdiğimiz input(girdi) boyutu ile çalışma zamanını fonksiyonel olarak birbirine bağlarsak bilgisayara ve programlama dillerine bağlı olmayan bir yapı oluşturmuş oluruz. Bununla analiz edebiliriz.
+    Programa verdiğimiz input(girdi) boyutu ile çalışma zamanını fonksiyonel olarak birbirine bağlarsak bilgisayara ve programlama
+    dillerine bağlı olmayan bir yapı oluşturmuş oluruz. Bununla analiz edebiliriz.
